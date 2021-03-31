@@ -11,11 +11,11 @@
 
 	<h2>Produtos</h2>
 
-	<table border="2"> <!-- table row // linha da tabela -->
+	<table border="2" width="100%"> <!-- table row // linha da tabela -->
 		
 		<tr>
 			<th>Código		</th> <!-- table data ou table cell -->
-			<th>Produtos	</th>
+			<th>Produtos	</th> <!-- aceita link e img (a e img) -->
 			<th>Preço		</th>
 		</tr>
 
@@ -29,6 +29,20 @@
 			<td>002			</td>
 			<td>Tablet		</td>
 			<td>R$ 999,99	</td>
+		</tr>
+
+		<tr>
+			<td rowspan="2">Desconto</td>
+			<td colspan="2">cupom1 -R$10</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">cupom2 -R$12</td>
+		</tr>
+
+		<tr>
+			<td>Total:</td>
+			<td colspan="2">R$ 3.478,98	</td>
 		</tr>
 
 	</table>
